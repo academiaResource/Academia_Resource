@@ -1,0 +1,22 @@
+.amarelo{
+	color: yellow;
+}
+
+.preto{
+	color: black;
+}
+
+.fundo{
+	background-image: url("img/fundo.jpg");
+}
+
+.footer {
+   position: fixed;
+   left: 0.5%;
+   bottom: 0;
+   width: 98.5%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   booder-radius: 10px;
+}

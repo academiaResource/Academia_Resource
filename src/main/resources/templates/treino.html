@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="../assets/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="../assets/style.css" rel="stylesheet" type="text/css" />
+<title>Visualizar treino</title>
+</head>
+<body>
+	<div class="container-fluid">
+		<header>
+			<nav class="navbar navbar-inverse">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a class="navbar-brand"><span class="amarelo">Academia
+								Resource</span></a>
+					</div>
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#"><span class="amarelo">Home</span></a></li>
+						<li><a href="#"><span class="amarelo">Aluno</span></a></li>
+						<li><a href="#"><span class="amarelo">Treinador</span></a></li>
+						<li><a href="#"><span class="amarelo">Treinamentos</span></a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<div id="treino">
+			<!-- CRIAR UM FOR EACH -->
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th>Treino</th>
+						<th>Séries</th>
+						<th>Tipo</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Supino</td>
+						<td>4 x 10</td>
+						<td>Peitoral</td>
+					</tr>
+					<tr>
+						<td>Agachamento</td>
+						<td>4 x 10</td>
+						<td>Perna</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<button type="button" class="btn btn-warning"
+			onclick="printTreino('treino')">Baixar PDF</button>
+		<footer class="footer">
+			<h5 class="amarelo">&copy RESOURCE IT 2018</h5>
+		</footer>
+	</div>
+	<script type="text/javascript" src="../assets/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="../assets/bootstrap.js"></script>
+	<script type="text/javascript" src="../assets/print.js"></script>
+</body>
+</html>
